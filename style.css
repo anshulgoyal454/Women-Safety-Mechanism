@@ -1,0 +1,45 @@
+@media only screen and (min-width: 600px) {
+    .container {
+        max-width: 40%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+  }
+  
+.container{
+    background-color: pink;
+    margin-top: 30px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.margin{
+    margin:2px;
+}
+
+body{
+    background-color:rgb(252, 84, 112);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(RougeScript-Regular.ttf);
+  }
+.Heading{
+    font-family: myFirstFont;
+    font-size: 2em;
+    color: #9b557b;
+    display: flex;
+    justify-content: center;
+}
+.center-align{
+    display: flex;
+    justify-content: center;
+}
+.LoginAndSign{
+    display:flex;
+    justify-content: center;
+}
